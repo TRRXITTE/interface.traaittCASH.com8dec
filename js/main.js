@@ -178,7 +178,7 @@ function getAndDisplayLastBlockHeader() {
       const curSupply = data.alreadyGeneratedCoins
       const emiss = (curSupply / maxSupply) * 100
 
-      $('#blockchainSupplyEmission').text(numeral(emiss).format('0.000000') + ' %')
+      $('#blockchainSupplyEmission').text(numeral(emiss).format('0.00') + ' %')
     }
   })
 }
